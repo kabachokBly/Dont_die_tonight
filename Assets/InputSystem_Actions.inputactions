@@ -3,28 +3,88 @@
     "name": "InputSystem_Actions",
     "maps": [
         {
-            "name": "Player",
-            "id": "df70fa95-8a34-4494-b137-73ab6b9c7d37",
+            "name": "playerMovement",
+            "id": "eb6fa819-2dc2-4270-ad69-58a4f2da1b2e",
             "actions": [
                 {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "51aece2f-002a-4ba0-885e-14014f9d0b21",
+                    "name": "moveUp",
+                    "type": "Value",
+                    "id": "1a951007-1094-4c38-b83c-aad8a1e724d7",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "moveDown",
+                    "type": "Value",
+                    "id": "389269fc-5593-4d1e-8457-e9b8394ffadf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "moveRight",
+                    "type": "Value",
+                    "id": "ec1ac93f-15fd-4e37-83a4-34f476a60b1d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "moveLeft",
+                    "type": "Value",
+                    "id": "73a39cf9-90d2-4b19-9db8-3c6f3ec38874",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "e4aa897e-d551-421a-988a-f47176a68f60",
-                    "path": "",
+                    "id": "57f52c3b-f777-4cbd-a0af-cc32074b3b20",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "moveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "441a7c8a-fc7e-4392-880f-a48a81ead625",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "moveDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc9bbf40-c877-451c-b9fd-ba6a34aa006f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "moveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63a69f90-234c-4c12-8ce5-9449eb50bafc",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "moveLeft",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
