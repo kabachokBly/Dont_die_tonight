@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class testMenu : MonoBehaviour
+public class menuButtons : MonoBehaviour
 {
-    public void startGame()
+    public void playGame()
     {
         Debug.Log("start!");
     }
