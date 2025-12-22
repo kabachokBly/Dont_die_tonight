@@ -1,23 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 784dcc6ad600e02459990054036e4df3
-=======
-guid: 094c851134dbcb74889e1e372f3c75b6
->>>>>>> f56044f2c283b1c6b1f3e24b5d4de3ab7ea52a54
+guid: 3cea1471091639f4f8b8e446e455b984
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 368543389579951487
-    second: slime_0
-  - first:
-      213: -458641133534639524
-    second: slime_1
-  - first:
-      213: 2542698315722941828
-    second: slime_2
-  - first:
-      213: -3711818451352614709
-    second: slime_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -88,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,7 +93,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -123,121 +106,115 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> f56044f2c283b1c6b1f3e24b5d4de3ab7ea52a54
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_0
+      name: cghfqnsad_0
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 66
-        y: 317
-        width: 71
-        height: 39
-=======
         x: 0
-        y: 113
-        width: 69
-        height: 38
->>>>>>> f56044f2c283b1c6b1f3e24b5d4de3ab7ea52a54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 600
+        width: 344
+        height: 600
+      alignment: 9
+      pivot: {x: 0.6250315, y: 0.42555818}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7d3b3c92445d1500800000000000000
-      internalID: 368543389579951487
+      spriteID: 0eb9ed1b375d7ee47ace4d42d75bce77
+      internalID: 1279216621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_1
+      name: cghfqnsad_1
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 66
-        y: 215
-        width: 71
-=======
-        x: 0
-        y: 75
-        width: 69
->>>>>>> f56044f2c283b1c6b1f3e24b5d4de3ab7ea52a54
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 344
+        y: 600
+        width: 344
+        height: 600
+      alignment: 9
+      pivot: {x: 0.6202224, y: 0.43107238}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5a094ca15492a9f0800000000000000
-      internalID: -458641133534639524
+      spriteID: c0cc80677e178ae4199db60914304161
+      internalID: 1007922199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_2
+      name: cghfqnsad_2
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 67
-        y: 113
-        width: 70
-=======
-        x: 0
-        y: 37
-        width: 69
->>>>>>> f56044f2c283b1c6b1f3e24b5d4de3ab7ea52a54
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 688
+        y: 600
+        width: 344
+        height: 600
+      alignment: 9
+      pivot: {x: 0.62022275, y: 0.42831534}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48566a775aa794320800000000000000
-      internalID: 2542698315722941828
+      spriteID: 4642bc9bb1745fc4e894859970da7080
+      internalID: -1391380754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_3
+      name: cghfqnsad_3
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 67
-        y: 11
-        width: 70
-        height: 39
-=======
         x: 0
         y: 0
-        width: 69
-        height: 38
->>>>>>> f56044f2c283b1c6b1f3e24b5d4de3ab7ea52a54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 344
+        height: 600
+      alignment: 9
+      pivot: {x: 0.6202225, y: 0.42280108}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc80368d8c8fc7cc0800000000000000
-      internalID: -3711818451352614709
+      spriteID: 191836675f465ff4c80d4a4dc2878222
+      internalID: -180606056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cghfqnsad_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 344
+        height: 600
+      alignment: 9
+      pivot: {x: 0.6202224, y: 0.41728696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f82f24fe7a3d745be040e4fa601c17
+      internalID: -2038056285
       vertices: []
       indices: 
       edges: []
@@ -246,7 +223,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2f16fda326bebc349b8dfd5bb0d456cc
     internalID: 0
     vertices: []
     indices: 
@@ -254,12 +231,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":344.0,"y":600.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      slime_0: 368543389579951487
-      slime_1: -458641133534639524
-      slime_2: 2542698315722941828
-      slime_3: -3711818451352614709
+      cghfqnsad_0: 1279216621
+      cghfqnsad_1: 1007922199
+      cghfqnsad_2: -1391380754
+      cghfqnsad_3: -180606056
+      cghfqnsad_4: -2038056285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
