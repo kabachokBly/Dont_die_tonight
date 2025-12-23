@@ -6,8 +6,9 @@ public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
     [SerializeField] private float movementSpeed = 5f;
-    [SerializeField] private int maxHitPoints = 100;
-    private int currentHitPoints;
+    [SerializeField] private float maxHitPoints = 100f;
+    
+    private float currentHitPoints;
 
 
     private Rigidbody2D rb;
@@ -21,12 +22,12 @@ public class Player : MonoBehaviour
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
     }
-
-    public void TakeDamage(int damage)
+    
+    public void TakeDamage(float damage)
     {
         currentHitPoints -= damage;
     }
-    public void TakeHeal(int heal)
+    public void TakeHeal(float heal)
     {
         if(currentHitPoints + heal > maxHitPoints)
         {
