@@ -5,7 +5,9 @@ public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent enemyAgent;
     [SerializeField] private float attackingDistance = 5f;
+
     private State _currentState;
+    private const string IS_ATTAKING = "IsAttacking";
     private enum State
     {
         Following,
@@ -19,13 +21,14 @@ public class EnemyAI : MonoBehaviour
     }
     private void Update()
     {
+        ChangeFacingDirection();
         StateHandler();
     }
     private void StateHandler()
     {
         if (_currentState == State.Following)
         {
-
+            Following();
         }
         else
         {
@@ -40,15 +43,16 @@ public class EnemyAI : MonoBehaviour
 
 
 
-    //private void ChangeFacingDirection()
-    //{
-    //    if()
-    //    {
-    //        transform.rotation = Quaternion.Euler(0, -180, 0);
-    //    }
-    //    else
-    //    {
-    //        transform.rotation = Quaternion.Euler(0, 0, 0);
-    //    }
-    //}
+    private void ChangeFacingDirection()
+    {
+        Debug.Log(enemyAgent.velocity.normalized.x);
+        if (enemyAgent.velocity.normalized.x < 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+    }
 }

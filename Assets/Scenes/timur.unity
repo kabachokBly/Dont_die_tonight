@@ -9881,6 +9881,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6096847861165915078, guid: 0e4de23243993a64397bfaa52d2a3519, type: 3}
+      propertyPath: m_Speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8738846877193398743, guid: 0e4de23243993a64397bfaa52d2a3519, type: 3}
       propertyPath: m_Name
       value: Zondbe

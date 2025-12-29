@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   enemyAgent: {fileID: 6096847861165915078}
+  enemyRigidbody: {fileID: 7120129032562632914}
   attackingDistance: 5
 --- !u!1 &9209936910579823216
 GameObject:
