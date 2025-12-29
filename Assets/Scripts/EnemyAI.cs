@@ -3,8 +3,9 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] private NavMeshAgent EnemyAgent;
-    private State currentState;
+    [SerializeField] private NavMeshAgent enemyAgent;
+    [SerializeField] private float attackingDistance = 5f;
+    private State _currentState;
     private enum State
     {
         Following,
@@ -12,27 +13,42 @@ public class EnemyAI : MonoBehaviour
     }
     private void Awake()
     {
-        EnemyAgent.updateRotation = false;
-        EnemyAgent.updateUpAxis = false;
-        currentState = State.Following;
+        enemyAgent.updateRotation = false;
+        enemyAgent.updateUpAxis = false;
+        _currentState = State.Following;
     }
-    private void Start()
+    private void Update()
     {
-        
+        StateHandler();
     }
-
-    private void Following ()
+    private void StateHandler()
     {
-        ChangeFacingDirection();
-    }
+        if (_currentState == State.Following)
+        {
 
-
-
-    private void ChangeFacingDirection(Vector3 targetPosition)
-    {
-        if()
+        }
+        else
         {
 
         }
     }
+    private void Following()
+    {
+        enemyAgent.SetDestination(Player.Instance.transform.position);
+
+    }
+
+
+
+    //private void ChangeFacingDirection()
+    //{
+    //    if()
+    //    {
+    //        transform.rotation = Quaternion.Euler(0, -180, 0);
+    //    }
+    //    else
+    //    {
+    //        transform.rotation = Quaternion.Euler(0, 0, 0);
+    //    }
+    //}
 }
