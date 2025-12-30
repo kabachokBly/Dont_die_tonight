@@ -30,5 +30,9 @@ public class GameInput : MonoBehaviour
         Vector2 mousePos = Mouse.current.position.ReadValue();
         return mousePos;
     }
+    public bool GetMouseButton()
+    {
+        return playerInputActions.Player.GetMouseButton.IsPressed();
+    }
 }
 
