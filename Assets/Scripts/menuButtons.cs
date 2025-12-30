@@ -11,8 +11,11 @@ public class menuButtons : MonoBehaviour
     public void exitGame()
     {
         Debug.Log("exit");
+
+
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
+
         #else
         Application.Quit();
         #endif

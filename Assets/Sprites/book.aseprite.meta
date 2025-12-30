@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d99a0f0bf695e6e40b40fa80c35ecb40
+guid: d1f0336d55a3a934b9e31ec201dc64c9
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,7 +129,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: book
     originalName: 
-    pivot: {x: 0.46052632, y: -0.9484536}
+    pivot: {x: 0.46052632, y: -0.9484536} 
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 76
       height: 97
-    spriteID: 3c545a3b10955b6488d59b4911367fcb
+    spriteID: 470a67510d53689489d0d734b1e1832c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -171,7 +171,7 @@ ScriptedImporter:
         y: 92
         width: 76
         height: 97
-      spriteId: 3c545a3b10955b6488d59b4911367fcb
+      spriteId: 470a67510d53689489d0d734b1e1832c
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
