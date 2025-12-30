@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] private int dashSpeed = 10;
     [SerializeField] private float dashTime = 0.1f;
     [SerializeField] private float dashCooldown = 2f;
+    public Image Bar;
     
     private float currentHitPoints;
     private float _initialMovementSpeed;
