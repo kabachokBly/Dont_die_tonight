@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent enemyAgent;
-    [SerializeField] private float attackingDistance = 5f;
+    //[SerializeField] private float attackingDistance = 5f;
 
     private State _currentState;
     private const string IS_ATTAKING = "IsAttacking";
@@ -45,7 +45,7 @@ public class EnemyAI : MonoBehaviour
 
     private void ChangeFacingDirection()
     {
-        Debug.Log(enemyAgent.velocity.normalized.x);
+        //Debug.Log(enemyAgent.velocity.normalized.x);
         if (enemyAgent.velocity.normalized.x < 0)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
